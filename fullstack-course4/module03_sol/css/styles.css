@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #b5ffc2;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #ffe600;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 20px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: #008aa1;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #b5ffc2;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
