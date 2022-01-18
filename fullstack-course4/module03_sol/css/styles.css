@@ -1,8 +1,8 @@
 body {
-    font-size: 16px;
-    color: #fff;
+    font-size: 20px;
+    color: #008aa1;
     background-color: #b5ffc2;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
   
   /** HEADER **/
@@ -13,7 +13,7 @@ body {
   }
   
   .navbar-brand {
-    padding-top: 20px;
+    padding-top: 15px;
   }
   
   .navbar-brand h1 { /* Restaurant name */
@@ -21,7 +21,7 @@ body {
     color: #008aa1;
     font-size: 1.5em;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #b5ffc2;
+    text-shadow: 3px 3px 3px #b5ffc2;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
@@ -29,4 +29,29 @@ body {
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
+  #nav-list {
+    margin-top: 0px;
+  }
+  #nav-list a {
+    color: #008aa1;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  #nav-list a:hover {
+    background: #008aa1;
+    color: #fff;
+  }
+  #nav-list a span {
+    font-size: 1.5em;
+  }
+  
+  
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #008aa1;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
   
