@@ -6,96 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Food, LLC</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-  </head>
+  </head> <!--END OF HEAD-->
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
-        <div class="navbar-header"> <!-- navbar-header-->
-          <div class="navbar-brand pull-left visible-lg visible-md visible-sm visible-xs"> <!--(1) logo-->
+        <div class="navbar-header"> 
+          <div class="navbar-brand pull-left visible-lg visible-md visible-sm visible-xs"> 
             <a href="index.html"><h1>Food, LLC</h1></a>
-          </div> <!--(1) logo-->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false"> <!--(2) navigation button-->
+          </div> <!--END OF (1) logo-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false"> 
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button> <!--(2) navigation button-->
-        </div> <!-- navbar-header-->
-        <div id="collapsable-nav" class="collapse navbar-collapse"> <!--(3) navigation menu options-->
+          </button> <!--END OF (2) navigation button-->
+        </div> <!-- END OF navbar-header-->
+
+        <div id="collapsable-nav" class="collapse navbar-collapse"> 
           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
            <li>
-             <a href="#">
+             <a href="#chicken-tile">
                <br class="hidden-xs">Chicken</a>
            </li>
            <li>
-             <a href="#">
+             <a href="#beef-tile">
                <br class="hidden-xs">Beef</a>
            </li>
            <li>
-             <a href="#">
+             <a href="#sushi-tile">
                <br class="hidden-xs">Sushi</a>
            </li>
-         </ul><!-- #nav-list -->
-       </div><!-- (3) .collapse .navbar-collapse -->
-      </div> <!--container-->
-    </nav>
-
-  </header>
-
+         </ul><!-- END OF #nav-list -->
+       </div><!-- END OF (3) .collapse .navbar-collapse -->
+      </div> <!--END OF container-->
+    </nav><!--END OF HEADER-NAV-->
+  </header><!--END OF HEADER-->
   <div id="main-content" class="container">
-    <h2 id="menu-title" class="text-center">Our Menu</h2>
+      <h2 id="menu-title" class="text-center">Our Menu</h2>
+    
+      <section class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div id="chicken-tile" class="category-tile text-center">
+              <a href="https://tasty.co/recipe/hainanese-chicken-rice" target="_blank">
+                <span>Chicken</span>
+              </a>
+              <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet libero sit amet sagittis tempor. Phasellus aliquam ipsum ut consectetur ullamcorper. Donec interdum pulvinar augue, a gravida dolor mattis sit amet. Donec accumsan metus faucibus auctor ultrices. Donec pretium sed velit in blandit. Duis tristique justo a diam pharetra tempus. Morbi id elementum nisi, non porttitor augue. Cras rhoncus arcu urna, id dictum est pulvinar a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam nisl nibh, posuere sit amet sodales sed, pharetra ac eros. Ut dignissim pellentesque nulla a sagittis. Vivamus id semper nisi. Integer volutpat massa eget tincidunt varius. Donec ultricies massa est, nec consectetur orci ullamcorper eget. Ut faucibus sem dictum, tempor tellus vitae, laoreet mauris. Quisque finibus metus nec sapien elementum venenatis.</p>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div id="beef-tile" class="category-tile text-center">
+            <a href="https://cooking.nytimes.com/recipes/1020640-beef-wellington" target="_blank">
+              <span>Beef</span>
+            </a>
+              <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet libero sit amet sagittis tempor. Phasellus aliquam ipsum ut consectetur ullamcorper. Donec interdum pulvinar augue, a gravida dolor mattis sit amet. Donec accumsan metus faucibus auctor ultrices. Donec pretium sed velit in blandit. Duis tristique justo a diam pharetra tempus. Morbi id elementum nisi, non porttitor augue. Cras rhoncus arcu urna, id dictum est pulvinar a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam nisl nibh, posuere sit amet sodales sed, pharetra ac eros. Ut dignissim pellentesque nulla a sagittis. Vivamus id semper nisi. Integer volutpat massa eget tincidunt varius. Donec ultricies massa est, nec consectetur orci ullamcorper eget. Ut faucibus sem dictum, tempor tellus vitae, laoreet mauris. Quisque finibus metus nec sapien elementum venenatis.</p>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          
+            <div id="sushi-tile" class="category-tile text-center">
+              <a href="https://www.hungryhuy.com/spam-musubi/" target="_blank">
+                <span>Sushi</span>
+              </a>
+              <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet libero sit amet sagittis tempor. Phasellus aliquam ipsum ut consectetur ullamcorper. Donec interdum pulvinar augue, a gravida dolor mattis sit amet. Donec accumsan metus faucibus auctor ultrices. Donec pretium sed velit in blandit. Duis tristique justo a diam pharetra tempus. Morbi id elementum nisi, non porttitor augue. Cras rhoncus arcu urna, id dictum est pulvinar a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam nisl nibh, posuere sit amet sodales sed, pharetra ac eros. Ut dignissim pellentesque nulla a sagittis. Vivamus id semper nisi. Integer volutpat massa eget tincidunt varius. Donec ultricies massa est, nec consectetur orci ullamcorper eget. Ut faucibus sem dictum, tempor tellus vitae, laoreet mauris. Quisque finibus metus nec sapien elementum venenatis.</p>
+            </div>
+          
+        </div>
+      </section>
+
   </div>
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 container1">
-      <div class="card fix">
-          <section class="category text-center" id="poultry">Chicken</section>
-          <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          <br>
-          <br>
-          From <a href=https://en.wikipedia.org/wiki/Chicken>https://en.wikipedia.org/wiki/Chicken</a>:
-          The chicken (Gallus gallus domesticus) is a domesticated subspecies of the red junglefowl originally from Southeastern Asia. Rooster or cock is a term for an adult male bird, and a younger male may be called a cockerel. A male that has been castrated is a capon. An adult female bird is called a hen and a sexually immature female is called a pullet.
-
-          Originally raised for cockfighting or for special ceremonies, chickens were not kept for food until the Hellenistic period (4th–2nd centuries BC).[1][2] Humans now keep chickens primarily as a source of food (consuming both their meat and eggs) and as pets.
-            
-          Chickens are one of the most common and widespread domestic animals, with a total population of 23.7 billion as of 2018,[3] up from more than 19 billion in 2011.[4] There are more chickens in the world than any other bird.[4] There are numerous cultural references to chickens – in myth, folklore and religion, and in language and literature.
-            
-          Genetic studies have pointed to multiple maternal origins in South Asia, Southeast Asia, and East Asia,[5] but the clade found in the Americas, Europe, the Middle East and Africa originated from the Indian subcontinent. From ancient India, the chicken spread to Lydia in western Asia Minor, and to Greece by the 5th century BC.[6] Fowl have been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.[7][8][9]</p>
-    </div></div>
-    <div class="col-lg-12 col-md-12 col-sm-12 container2">
-    <div class="card fix">
-      <section class="category text-center" id="meat">Beef</section>
-      <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      <br>
-      <br>
-      From <a href=https://en.wikipedia.org/wiki/Beef>https://en.wikipedia.org/wiki/Beef</a>:
-      Beef is the culinary name for meat from cattle.
-
-      In prehistoric times, humans hunted aurochs and later domesticated them. Since then, numerous breeds of cattle have been bred specifically for the quality or quantity of their meat. Today, beef is the third most widely consumed meat in the world, after pork and poultry. As of 2018, the United States, Brazil, and China were the largest producers of beef.
-
-      Beef can be prepared in various ways; cuts are often used for steak, which can be cooked to varying degrees of doneness, while trimmings are often ground or minced, as found in most hamburgers. Beef contains protein, iron, and vitamin B12. Along with other kinds of red meat, high consumption is associated with an increased risk of colorectal cancer and coronary heart disease, especially when processed. Beef has a high environmental impact, being a primary driver of deforestation with the highest greenhouse gas emissions of any agricultural product.
-      </p>
-    </div></div>
-    <div class="col-lg-12 col-md-12 col-sm-12 container3">
-      <div class="card">
-      <section class="category text-center" id="special">Sushi</section>
-      <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      <br>
-      <br>
-        From <a href=https://en.wikipedia.org/wiki/Sushi>https://en.wikipedia.org/wiki/Sushi</a>:
-        Sushi (すし, 寿司, 鮨, 鮓, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanied by a variety of ingredients (ねた, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).[1]
-
-        Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.
-
-        Sushi is sometimes confused with sashimi, a related dish in Japanese cuisine that consists of thinly sliced raw fish or occasionally meat.[2]
-      </p>
-    </div></div>
-  </div>
+  
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

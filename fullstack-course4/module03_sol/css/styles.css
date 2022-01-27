@@ -1,41 +1,15 @@
-
-/********** Base styles **********/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
 body {
     font-size: 20px;
     color: #008aa1;
     background-color: #b5ffc2;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-h2 {
-    font-family: 'Mochiy Pop P One', sans-serif;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 1.25em;
-}
-p {
-    padding: 20px;
-  } 
 
-.card {
-    background-color: #ffe600;
-    margin: 20px;
-}
-.category {
-    padding-top: 10px;
-    font-size: 1em;
-    font-family: 'Mochiy Pop P One', sans-serif;
-}
 /** HEADER **/
 #header-nav {
     background-color: #ffe600;
     border-radius: 0;
     border: 0;
-    height: 65px;
 }
   
 .navbar-brand {
@@ -45,7 +19,7 @@ p {
 .navbar-brand h1 { /* Restaurant name */
     font-family: 'Mochiy Pop P One', sans-serif;
     color: #008aa1;
-    font-size: 2em;
+    font-size: 1.75em;
     font-weight: bold;
     text-shadow: 3px 3px 3px #b5ffc2;
     margin-top: 0;
@@ -81,6 +55,37 @@ p {
     clear: both;
     margin-top: -30px;
 }
+
+/* END OF HEADER */
+
+/* HOME PAGE */
+#menu-title {
+  margin-bottom: 50px;
+  padding: 0;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.row {
+  height: 1500px;
+  background-color: #d9796f;
+}
+/*category-tile names*/
+.category-tile span{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: #008aa1;
+}
+.category-tile {
+  background-color: #ffe600;
+  margin: 15px auto 0px;
+
+}
+
+.category-tile a:hover span {
+    color: #008aa1;
+    font-size: 1.2em;
+}
+/* END HOME PAGE */
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -169,6 +174,7 @@ p {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+   
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
       }
@@ -225,10 +231,7 @@ p {
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 3vw;
   }
-  .card {
-    background-color: #ffe600;
-    margin: 20px 80px 20px 80px;
-}
+
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -270,5 +273,3 @@ p {
   }
 
 }
-
-/* End Header */ 
